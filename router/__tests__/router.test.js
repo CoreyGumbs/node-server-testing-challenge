@@ -15,4 +15,11 @@ describe("route: /api/ | GET /", () => {
             expect(res.status).toBe(200);    
         });
     });
+
+    it("should return json", () => {
+        return request(server).get('/api')
+        .then(res => {
+            expect(res.body.message).toBe('router working');
+        })
+    })
 });
