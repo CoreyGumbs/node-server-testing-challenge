@@ -1,5 +1,6 @@
 # Mac cruft
 .DS_Store
+.vscode
 
 # Logs
 logs
@@ -105,3 +106,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+#.env
+.env
